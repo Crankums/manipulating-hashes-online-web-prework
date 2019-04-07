@@ -7,6 +7,8 @@ def second_challenge
   }
 
   #code your solution here!
-groceries.values
+new_arr = groceries.values
+new_arr
+
 
 end
