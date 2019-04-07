@@ -18,7 +18,7 @@ def first_challenge
     data.each do |attribute, value|
       value.each do |key, flavor|
         value.delete_if flavor == "strawberry"
-        
+
 
       end
 end
