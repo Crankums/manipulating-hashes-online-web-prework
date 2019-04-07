@@ -7,8 +7,8 @@ def second_challenge
   }
 
   #code your solution here!
-new_arr = groceries.values
-new_arr.flatten
+groceries.values.flatten
+
 
 
 end
