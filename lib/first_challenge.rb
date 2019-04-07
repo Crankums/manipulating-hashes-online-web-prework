@@ -14,8 +14,11 @@ def first_challenge
   }
 
   #your code here
-contacts["Freddy Mercury"].delete_if {|key, value| value == "strawberry"}
-
+  contacts.each do |person, data|
+    data.each do |attribute, value|
+      binding.pry
+    
+  end
 
   #remember to return your newly altered contacts hash!
   contacts
