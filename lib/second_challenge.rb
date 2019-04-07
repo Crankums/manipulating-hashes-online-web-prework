@@ -10,6 +10,6 @@ def second_challenge
 new_arr = []
 new_arr << groceries.values
 new_arr
-  
+
 
 end
