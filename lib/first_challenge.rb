@@ -16,7 +16,7 @@ def first_challenge
   #your code here
 if contacts.any? { |attribute, data| data == "strawberry" }
   data.delete("strawberry")
-end 
+end
 
   #remember to return your newly altered contacts hash!
   contacts
