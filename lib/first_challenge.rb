@@ -16,7 +16,7 @@ def first_challenge
   #your code here
   contacts.each do |person, data|
     data.each do |attribute, value|
-      [favorite_icecream_flavors:].delete("strawberry")
+      [:favorite_icecream_flavors].delete("strawberry")
 end
   end
 
